@@ -43,15 +43,16 @@ html{
 .navbar ul{
     position: absolute;
     background-color: #17130f;
-    width: 100%;
+    width: 50%;
     height: 42.3rem;
-    left: -100%;
+    right: -100%;
     top: 80px;
     text-align: center;
     align-items: center;
     justify-content: center;
     transition: 1s;
-
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
 }
 .navbar li{
     position: relative;
@@ -80,7 +81,7 @@ html{
     font-size: 35px;
 }
 #check:checked ~ ul{
-    left: 0px;
+    right: 0px;
 }
 #check:checked ~ label #click{
     display: none;
