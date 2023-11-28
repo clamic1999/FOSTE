@@ -1,10 +1,5 @@
 @media only screen and (min-width:200px) and (max-width:991px){
-    html{
-        overflow-x: hidden;
-    }
-    body{
-        overflow-x: hidden;
-    }
+    
     .header{
         height: 80px;
         width: 100%;
@@ -341,6 +336,7 @@
             display: block;
             justify-content: center;
             margin-top: 40px;
+            padding: 0 2rem;
         }
         .footes{
             display: block;
@@ -351,7 +347,7 @@
         .footed .footing1{
             width: 19rem;
         }
-        .footed .footing1 h3{
+        .footed .footing1 h1{
             margin-left: 30px;
         }
         .footed .footing1 p{
