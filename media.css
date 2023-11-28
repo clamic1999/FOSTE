@@ -1,5 +1,7 @@
 @media only screen and (min-width:200px) and (max-width:991px){
-    
+    body{
+        overflow-x: hidden;
+    }
     .header{
         height: 80px;
         width: 100%;
@@ -10,10 +12,14 @@
    } 
    .navbar ul{
     height: 36.8rem;
+    right: -100%;
    }
    .navbar li{
     position: relative;
     top: 130px;
+    }
+    #check:checked ~ ul{
+        right: 0px;
     }
     
     /* home */
